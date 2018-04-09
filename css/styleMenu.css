@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+}
+p{
+    size: 4;
+}
+#menu ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+    }
+   #menu li {
+    display:inline-block;
+    margin:auto;
+    padding:0;
+    background-color:black;
+    }
+   #menu li a {
+    display:inline-block;
+    width:100px;
+    color:white;
+    text-decoration:none;
+    padding:5px;
+    }
+   #menu li a:hover {
+    color:#FFD700;
+    }
+    #conteneur{ 
+        display: flex;
+        flex-direction: row;
+    }
+    #fidelité{
+    border: 1;
+    background-color: red;
+    
+    
+    }
+    #famille{
+        border: 1;
+        background-color: blue;
+        }
+    #moment{
+    border: 1;
+    background-color: green;
+    }

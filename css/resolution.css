@@ -1,0 +1,15 @@
+/* j'ai crée un mediaqueries avec les propriétés de taille d'écran , texte et image 
+I'm creating a mediaqueries with the height , the pictures */ 
+@media only screen and (min-width: 100px)
+  and (max-width: 700px){
+    p{ 
+      color: blue;
+      background-color: white;
+      font-size: 5em;
+  }
+  img {
+    width: 50%;
+    height: auto;
+}
+
+}
