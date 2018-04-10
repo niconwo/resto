@@ -4,14 +4,11 @@ form{
 }
 fieldset{
     background-color: white;
-    border : whitesmoke;
+    
 }
 input:hover{
     border: 1px solid yellow;
 }
-input:required {
-    border: 1px solid red;
-  }
   textarea:hover{
     border: 1px solid yellow;
 }
