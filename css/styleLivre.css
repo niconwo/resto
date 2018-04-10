@@ -1,18 +1,18 @@
 form{
-    border:2;
+    border-color:2;
     
 
     
 }
 input:focus{
-    border:  yellow;
-    box-shadow: black;
+    background-color: yellow;
+    box-shadow: 5px 5px 5px black;
 }
   textarea:focus{
-    border:  yellow;
+    background-color: yellow; 
     box-shadow: 10px 5px 5px black;
 }
 input:valid {
-    border: green; 
+    background-color: green; 
 }
   

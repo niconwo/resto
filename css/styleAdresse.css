@@ -68,15 +68,14 @@ fieldset{
     background-color: white;
     border : whitesmoke;
 }
-input{
-    border: 1px solid black;
+
+input:focus{
+    border:  yellow;
+    box-shadow: 10px 5px 5px black;
 }
-input:hover{
-    border: 1px solid yellow;
-}
-  }
-textarea:hover{
-    border: 1px solid yellow;
+  textarea:focus{
+    border:  yellow;
+    box-shadow: 10px 5px 5px black;
 }
 input:focus, textarea:focus {
     color:red;
