@@ -1,14 +1,18 @@
 form{
     border:2;
     
-}
-fieldset{
-    background-color: white;
+
     
 }
-input:hover{
-    border: 1px solid yellow;
+input:focus{
+    border:  yellow;
+    box-shadow: black;
 }
-  textarea:hover{
-    border: 1px solid yellow;
+  textarea:focus{
+    border:  yellow;
+    box-shadow: 10px 5px 5px black;
 }
+input:valid {
+    border: green; 
+}
+  

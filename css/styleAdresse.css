@@ -63,7 +63,7 @@ table{
 
 p{
     size: 4;
-}
+}   
 fieldset{
     background-color: white;
     border : whitesmoke;
@@ -78,3 +78,8 @@ input:hover{
 textarea:hover{
     border: 1px solid yellow;
 }
+input:focus, textarea:focus {
+    color:red;
+}
+
+  
