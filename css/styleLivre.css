@@ -2,11 +2,16 @@ form{
     border:2;
     
 }
+fieldset{
+    background-color: white;
+    border : whitesmoke;
+}
+input:hover{
+    border: 1px solid yellow;
+}
 input:required {
     border: 1px solid red;
-    symbols: element();
   }
-  
-  input:valid {
-    border: 1px solid blue;
-  }
+  textarea:hover{
+    border: 1px solid yellow;
+}
