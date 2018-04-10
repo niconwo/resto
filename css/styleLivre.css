@@ -2,3 +2,11 @@ form{
     border:2;
     
 }
+input:required {
+    border: 1px solid red;
+    symbols: element();
+  }
+  
+  input:valid {
+    border: 1px solid blue;
+  }

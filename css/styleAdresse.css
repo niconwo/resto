@@ -30,8 +30,8 @@ nav a{
     text-decoration: none;
 }
 nav >ul > li > a {
-    padding 20px 30px;
-    color : red;
+    padding : 30px;
+    color: red ;
 }
 nav li:hover .submenu{
     display: inline-block;
@@ -64,3 +64,11 @@ table{
 p{
     size: 4;
 }
+input:required {
+    border: 1px solid red;
+    symbols: element();
+  }
+  
+  input:valid {
+    border: 1px solid blue;
+  }
