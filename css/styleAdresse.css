@@ -64,21 +64,20 @@ table{
 p{
     size: 4;
 }   
-fieldset{
-    background-color: white;
-    border : whitesmoke;
+input {
+    border-color: black;
 }
-
 input:focus{
-    border:  yellow;
+    border-color:  yellow;
     box-shadow: 10px 5px 5px black;
 }
   textarea:focus{
-    border:  yellow;
+    border-color: yellow;
     box-shadow: 10px 5px 5px black;
 }
-input:focus, textarea:focus {
-    color:red;
+input:valid{
+    border-color:  green;
+
 }
 
   

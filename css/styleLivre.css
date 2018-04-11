@@ -5,14 +5,15 @@ form{
     
 }
 input:focus{
-    background-color: yellow;
-    box-shadow: 5px 5px 5px black;
-}
-  textarea:focus{
-    background-color: yellow; 
+    border-color:  yellow;
     box-shadow: 10px 5px 5px black;
 }
-input:valid {
-    background-color: green; 
+  textarea:focus{
+    border-color: yellow;
+    box-shadow: 10px 5px 5px black;
+}
+input:valid{
+    border-color:  green;
+
 }
   
