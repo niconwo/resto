@@ -57,34 +57,31 @@
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.4824540874847!2d-0.38422264885867985!3d43.283217279033295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd564ed0fe7c0cd5%3A0x124156e49d7d6182!2s5+Avenue+Victor+Hugo%2C+64110+Juran%C3%A7on!5e0!3m2!1sfr!2sfr!4v1522915961866"
         width="850" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <form action="index.php" method="POST">
+    <form method="POST" action="index.php">
         <h1> reserver une table </h1>
-        <fieldset>
-            <label> nom et prenom </label>
-            <input type=" text " name="prenom " placeholder="ex=nicolas " />
-            <input type="text " name="nom " placeholder="ex=Cazenave " required aria-placeholder="C" />
+            <label> prenom  </label>
+            <input type=" text" name="prenom" id="prenom" placeholder="ex=nicolas " />
+            <label>nom </label>
+            <input type="text" name="nom" placeholder="ex=Cazenave " id="nom" required aria-placeholder="C"  />
             <!-- rajout du champ obligatoire
          add a required holder -->
             <label> email </label>
-            <input type="email " name="email " placeholder="ex=nico@hotmail.fr " id="required" required />
+            <input type="email" name="email" placeholder="ex=nico@hotmail.fr " id="email" required  />
             <!-- rajout du champ obligatoire
          add a required holder -->
-        </fieldset>
-        <fieldset>
             <label> telephone</label>
-            <input type="tel " />
+            <input type="tel" id="tel"/>
             <label> date </label>
-            <input type="date" />
-        </fieldset>
-        <fieldset>
+            <input type="date" id="date"/>
+   
             <label> commentaire </label>
-            <textarea type="text " name="commentaire" row="4" cols="40"></textarea>
-        </fieldset>
-        <fieldset>
+            <textarea type="text " name="commentaire" row="4" cols="40" id="commentaire"></textarea>
+        
             <input type="submit" id="submit" name="envoyer" />
             <input type="reset" name="retour en ariere" />
         </fieldset>
     </form>
+    
 </body>
 
 </html>

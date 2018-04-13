@@ -19,7 +19,7 @@ mysql_select_db ('restaurant', $restaurant) ;*/
 
 
 
-$requete = $bdd->prepare(`INSERT INTO reservation(prenom, nom, tel, email, commentaire] VALUES(:prenom,:nom ,:email,:commentaire)`);
+$requete = $bdd->prepare(`INSERT INTO livre(prenom, nom, email, commentaire] VALUES(:prenom,:nom ,:email,:commentaire)`);
 
 $requete->execute(array(
     'prenom' => $prenom,
